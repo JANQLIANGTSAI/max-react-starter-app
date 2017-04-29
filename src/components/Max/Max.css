@@ -1,0 +1,24 @@
+.Max {
+  text-align: center;
+}
+
+.Max-logo {
+  animation: Max-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Max-header {
+  background-color: #818;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Max-intro {
+  font-size: large;
+}
+
+@keyframes Max-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
