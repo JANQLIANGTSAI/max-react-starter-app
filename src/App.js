@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+/** TEXT EXAMPLES **/
 import Max from './components/Max/Max.jsx';
+import DangerButton from './components/Max/Button/DangerButton.jsx';
+import ArbitraryWidget from './components/Max/StateEx/StateEx.jsx';
+
+/** Start Here **/
 
 class App extends Component {
   render() {
@@ -15,7 +21,13 @@ class App extends Component {
           The Main Page - edit <code>src/App.js</code> and save to reload.
         </p>
 
-	       <Max />
+        <hr/>
+        <Max />
+
+        <hr/>
+        <DangerButton />
+
+        <hr/>
 
       </div>
     );
